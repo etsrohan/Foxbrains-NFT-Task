@@ -22,7 +22,7 @@ import "/home/rohan/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol";
 // or the external functions present in FoxbrainsNFT contract
 contract FoxbrainsERC20 is ERC20 {
     // VARIABLES
-    address public admin;
+    address private admin;
 
     // FUNCTIONS
     constructor() ERC20("foxbrains", "FOX20"){
